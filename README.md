@@ -18,11 +18,8 @@ Visit our [homepage](https://moeditor.org/) or download [releases](https://githu
 * Focus mode
 
 # Screenshots
+
 ![Moeditor Main](screenshots/main.png)
-
-![Moeditor Side Menu](screenshots/side-menu.png)
-
-![Moeditor About](screenshots/about.png)
 
 ![Moeditor Write Mode](screenshots/write-mode.png)
 
