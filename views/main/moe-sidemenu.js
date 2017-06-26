@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function hideMenu() {
-        sideMenu.style.marginLeft = '-300px';
+        sideMenu.style.marginLeft = '-310px';
         document.getElementById('main').classList.remove('notransition');
         sideMenuCover.style.opacity = '0';
         sideMenuCover.style.pointerEvents = 'none';

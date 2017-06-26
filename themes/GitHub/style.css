@@ -18,10 +18,10 @@
 #container {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  color: #373737;
-  font-family: "Roboto", "Noto Sans", "Ubuntu", "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif, "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft Yahei";
-  font-size: 14px;
-  line-height: 2;
+  font-family: "Helvetica Neue",Arial,"Hiragino Sans GB","STHeiti","Microsoft YaHei","WenQuanYi Micro Hei",SimSun,Song,sans-serif;
+  font-size: 15px;
+  line-height: 1.45;
+  color: #2c3f51;
   word-wrap: break-word;
   background-color: #fff;
 }

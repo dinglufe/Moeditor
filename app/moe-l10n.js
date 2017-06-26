@@ -82,7 +82,7 @@ class MoeditorLocale {
         let res;
 		if (typeof strings[this.locale] === 'undefined' || typeof strings[this.locale][str] === 'undefined') {
             res = strings['en'][str];
-            console.log('Localization of "' + str + '" in "' + this.locale + '" failed, falling back to English.');
+            //console.log('Localization of "' + str + '" in "' + this.locale + '" failed, falling back to English.');
         } else {
             res = strings[this.locale][str];
         }
@@ -291,7 +291,10 @@ const strings = {
         "Window": "窗口",
         "Help": "帮助",
         "Toggle Developer Tools": "切换开发者工具",
-        "Preference": "偏好设置"
+        "Preference": "偏好设置",
+        "Auto save": "自动保存",
+        "Disabled": "禁止",
+        "On Blur": "开启"
     },
 	"de": {
         "_name": "Deutsch",

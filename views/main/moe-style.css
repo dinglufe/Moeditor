@@ -29,7 +29,7 @@ html, body {
 
 #side-menu {
     width: 300px;
-    margin-left: -300px;
+    margin-left: -310px;
     height: 100%;
     background: #fafafa;
     transition: all 200ms ease-in-out;
@@ -318,6 +318,9 @@ html, body {
 
 body[settings-editor-font="default"] #editor * {
     font-family: 'Roboto Mono', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Liberation Mono', 'Dejavu Mans Mono', monospace !important;
+
+    font-size: 16px;
+    line-height: 1.65;
 }
 
 html[lang="zh_CN"] body[settings-editor-font="default"] #editor * {
