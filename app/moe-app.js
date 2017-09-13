@@ -58,9 +58,9 @@ class MoeditorApplication {
 
         this.flag = new Object();
 
-        const a = process.argv;
-        if (a[0].endsWith('electron') && a[1] == '.') a.shift(), a.shift();
-        else a.shift();
+        const a = process.argv;a.shift();
+        if (a[0] == '.') a.shift();
+
         var docs = a.filter((s) => {
             if (s == '--debug') moeApp.flag.debug = true;
             else if (s == '--about') moeApp.flag.about = true;
